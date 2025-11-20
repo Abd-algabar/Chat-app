@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { login } from "../lib/api";
 import { ShipWheelIcon } from "lucide-react";
 import { Link } from "react-router";
-import useLogin from "../hooks/uselogin";
+import useLogin from "../hooks/useLogin.js";
 
 const LoginPage = () => {
   const [loginData, setLoginData] = useState({

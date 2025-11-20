@@ -16,7 +16,7 @@ const port=process.env.PORT ||3000
 const __dirname=Path.resolve()
 
 app.use(cors(
-    {origin:"http://localhost:5173",
+    {origin:"https://chat-app-frontend-kzr9.onrender.com/",
         credentials:true
     }
 ))
